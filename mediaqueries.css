@@ -1,0 +1,27 @@
+
+
+@media only screen and (max-width: 760px) {
+    /* Show Hamburger Menu on Mobile */
+    #desktop-nav {
+      display: none;
+    }
+  
+    #hamburger-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      height: 17vh;
+    }
+  }
+  
+  @media only screen and (min-width: 760px) {
+    /* Show Desktop Nav on Larger Screens */
+    #desktop-nav {
+      display: flex;
+    }
+  
+    #hamburger-nav {
+      display: none;
+    }
+  }
