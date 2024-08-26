@@ -132,3 +132,23 @@ a:hover {
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
+
+.hamburger-icon span:first-child{
+  transform: none;
+}
+
+.hamburger-icon span:first-child{
+  opacity: 1;
+}
+
+.hamburger-icon span:first-child{
+  transform: none;
+}
+
+
+.section_pic-container img{
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+      margin: 0 auto 2rem;
+}
