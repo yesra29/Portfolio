@@ -1,27 +1,133 @@
 
 
 @media only screen and (max-width: 760px) {
-    /* Show Hamburger Menu on Mobile */
-    #desktop-nav {
-      display: none;
-    }
-  
-    #hamburger-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 20px;
-      height: 17vh;
-    }
+  /* Show Hamburger Menu on Mobile */
+  #desktop-nav {
+    display: none;
   }
-  
-  @media only screen and (min-width: 760px) {
-    /* Show Desktop Nav on Larger Screens */
-    #desktop-nav {
-      display: flex;
-    }
-  
-    #hamburger-nav {
-      display: none;
-    }
+
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 17vh;
   }
+}
+
+@media only screen and (min-width: 760px) {
+  /* Show Desktop Nav on Larger Screens */
+  #desktop-nav {
+    display: flex;
+  }
+
+  #hamburger-nav {
+    display: none;
+  }
+}
+
+/* #social-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 400px; /* Adjust as necessary */
+}
+
+/* #social-container a {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.social-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: #0056b3;
+} */
+
+/* Mobile Style (max-width: 480px) */
+ @media screen and (max-width: 480px) {
+  #social-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #social-container a {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 350px; /* Adjust for mobile screen */
+  }
+} 
+
+/* Container for main buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Ensure some space below the button container */
+}
+
+/* Social buttons container - positioned just below btn-container */
+#social-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto; /* Provide spacing between btn-container and social-container */
+  width: 100%;
+  max-width: 180px; /* Adjust to your preferred size */
+}
+
+#social-container a {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.social-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Style (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  /* Adjust buttons to be vertical in mobile */
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  #social-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Reduce space for mobile to keep buttons closer */
+  }
+
+  #social-container a {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px; /* Adjust for mobile screen */
+  }
+}
+
+ 
